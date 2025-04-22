@@ -15,10 +15,6 @@ build/
 # Test coverage reports
 coverage/
 
-# Jest cache and output
-jest-cache/
-jest-report/
-
 # Debugging artifacts
 *.log
 *.ts-log
