@@ -53,19 +53,19 @@ Este projeto consiste no desenvolvimento de uma API REST para gerenciar produtos
 
    ```
 
-6. **Inicie um container do MongoDB com o Docker**
+5. **Inicie um container do MongoDB com o Docker**
 
    ```bash
    docker-compose up -d
    ```
 
-7. **Insira o seed com as marcas no DB** 
+6. **Insira o seed com as marcas no DB** 
 
    ```bash
    npx ts-node src/infrastructure/database/seed/seedBrands.ts
    ```
 
-8. **Inicie o servidor de desenvolvimento**
+7. **Inicie o servidor de desenvolvimento**
 
    ```bash
    npm start
@@ -76,25 +76,14 @@ Este projeto consiste no desenvolvimento de uma API REST para gerenciar produtos
    ```bash
    yarn start
    ```
-9. **Executar Testes**
 
-   ``` bash
-   npm test
-   ```
-
-   ou
-
-   ```bash
-   yarn test
-   ```
-
-10. **Abra o navegador e acesse**
+8. **Abra o navegador e acesse**
 
    ```
    http://localhost:3000/brands
    ```
 
-10. **Você verá algo similar aí, é só pegar o ID da marca e criar um novo produto pelas collections do Postman(instruções de importação de collection abaixo).**
+9. **Você verá algo similar aí, é só pegar o ID da marca e criar um novo produto pelas collections do Postman(instruções de importação de collection abaixo).**
    ```plaintext
    {
     "brands": [
