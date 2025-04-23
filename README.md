@@ -48,7 +48,7 @@ Este projeto consiste no desenvolvimento de uma API REST para gerenciar produtos
 4. **Crie um arquivo .env na raiz do projeto com as seguintes variáveis de ambiente:**
 
    ```bash
-    MONGODB_URI=mongodb://localhost:27017/supermarket-db?retryWrites=true&w=majority
+    MONGO_URI=mongodb://localhost:27017/supermarket-db?retryWrites=true&w=majority
     PORT=3000
 
    ```
